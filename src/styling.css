@@ -31,3 +31,8 @@ body {
     font-family: "Barlow";
     font-weight: 400;
 }
+
+.partial-bg-gray {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, theme('colors.gray') 10%, theme('colors.gray') 90%, rgba(57, 0, 255, 0) 90%);
+}
